@@ -1,0 +1,16 @@
+{
+  "name": "lightprep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "浏览器内演唱会灯光预演工具 (WebGL2 + TypeScript)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "vite": "5.4.10"
+  }
+}
